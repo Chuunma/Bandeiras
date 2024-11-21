@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid red 1px;
+
+  width: 500px;
+  height: auto;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 320px;
+  height: 224px;
+  background: green;
+  margin-top: 80px;
+  /* border: solid blue 5px; */
+}
+
+.rectangle-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 320px;
+  height: 224px;
+  background: white;
+  margin-top: 80px;
+  border: solid blue 5px;
+}
+
+.rectangle-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  /* border: solid blue 5px; */
+  background: white;
+  width: 320px;
+  height: 220px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.square {
+  height: 122px;
+  width: 150px;
+  background-color: blue;
+  position: absolute;
+  z-index: 1;
+}
+
+.sutaru {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: blue;
+  width: 150px;
+  height: 122px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.sutaru p {
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 15px;
+  text-align: center;
+  position: relative;
+  left: 8px;
+  bottom: 0px;
+}
+
+.circle-2 {
+  width: 130px;
+  height: 130px;
+  background-color: red;
+  border-radius: 50%;
+
+  /* position: relative;
+  top: 48px;
+  left: 90px; */
+}
+
+.first-diamond {
+  width: 1px;
+  height: 1px;
+  border: solid 132px transparent;
+  border-bottom: solid 84px yellow;
+  border-top-width: 0;
+  position: absolute;
+  top: 116px;
+  /* left: 800px; */
+}
+
+.second-diamond {
+  width: 1px;
+  height: 1px;
+  border: solid 132px transparent;
+  border-top: solid 84px yellow;
+  border-bottom-width: 0;
+  position: absolute;
+  top: 200px;
+  /* left: 800px; */
+}
+
+.first-cicle {
+  width: 112px;
+  height: 112px;
+  background: blue;
+  border-radius: 50%;
+  position: relative;
+  top: 6px;
+  /* left: 880px; */
+  overflow: hidden;
+}
+
+.white-line {
+  width: 272px;
+  height: 272px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 32px;
+  left: -112px;
+}
+
+.second-cicle {
+  width: 256px;
+  height: 256px;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: -104px;
+}
+
+.stars li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+  position: absolute;
+}
+
+.stars li:before {
+  content: "★";
+}
+.star-1:before {
+  font-size: 5px;
+}
+.star-2:before {
+  font-size: 4px;
+}
+.star-3:before {
+  font-size: 3px;
+}
+.star-4:before {
+  font-size: 2px;
+}
+.star-5:before {
+  font-size: 1px;
+}
+
+#star-a {
+  top: 34px;
+  left: 8px;
+}
+
+#star-b {
+  top: 45px;
+  left: 32px;
+}
+
+#star-c {
+  top: 52px;
+  left: 19px;
+}
+
+#star-d {
+  top: 57px;
+  left: 12px;
+}
+
+#star-e {
+  top: 62px;
+  left: 7px;
+}
+
+#star-f {
+  top: 62px;
+  left: 24px;
+}
+
+#star-g {
+  top: 68px;
+  left: 22px;
+}
+
+#star-h {
+  top: 74px;
+  left: 30px;
+}
+
+#star-i {
+  top: 52px;
+  left: 54px;
+}
+
+#star-j {
+  top: 58px;
+  left: 47px;
+}
+
+#star-k {
+  top: 60px;
+  left: 51px;
+}
+
+#star-l {
+  top: 57px;
+  left: 59px;
+}
+
+#star-m {
+  top: 69px;
+  left: 53px;
+}
+
+#star-n {
+  top: 86px;
+  left: 55px;
+}
+
+#star-o {
+  top: 74px;
+  left: 66px;
+}
+
+#star-p {
+  top: 81px;
+  left: 70px;
+}
+
+#star-q {
+  top: 76px;
+  left: 75px;
+}
+
+#star-r {
+  top: 86px;
+  left: 82px;
+}
+
+#star-s {
+  top: 80px;
+  left: 82px;
+}
+
+#star-t {
+  top: 74px;
+  left: 82px;
+}
+
+#star-u {
+  top: 74px;
+  left: 87px;
+}
+
+#star-v {
+  top: 72px;
+  left: 92px;
+}
+
+#star-w {
+  top: 68px;
+  left: 95px;
+}
+
+#star-x {
+  top: 63px;
+  left: 92px;
+}
+
+#star-y {
+  top: 63px;
+  left: 101px;
+}
+
+#star-z {
+  top: 39px;
+  left: 67px;
+}
+
+#star-zz {
+  top: 25px;
+  left: 70px;
+}
+
+hr {
+  position: relative;
+  bottom: 0px;
+  border: red solid 9px;
+
+  margin-bottom: 17px;
+}
+
+hr:first-of-type {
+  margin-top: 0px;
+}
+
+hr:last-of-type {
+  margin-bottom: 0px;
+  bottom: 2px;
+}
+
+svg {
+  position: absolute;
+  top: 4px;
+  left: 56px;
+  height: 25px;
+  transform: rotate(5deg);
+}
